@@ -5,6 +5,11 @@ import { useCallback, useMemo } from "react";
 function ParticlesAutumn() {
   const options = useMemo(() => {
     return {
+      background: {
+        color: {
+          value: "#b33c1e",
+        },
+      },
       particles: {
         move: {
           direction: "bottom",

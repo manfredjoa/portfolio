@@ -5,6 +5,11 @@ import { useCallback, useMemo } from "react";
 function ParticlesWinter() {
   const options = useMemo(() => {
     return {
+      background: {
+        color: {
+          value: "#082f49",
+        },
+      },
       particles: {
         color: {
           value: ["#FFFFFF"],

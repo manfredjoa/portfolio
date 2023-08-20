@@ -5,6 +5,11 @@ import { useCallback, useMemo } from "react";
 function ParticlesSummer() {
   const options = useMemo(() => {
     return {
+      background: {
+        color: {
+          value: "#ffde38",
+        },
+      },
       particles: {
         move: {
           direction: "bottom",

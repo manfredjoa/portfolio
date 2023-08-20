@@ -34,35 +34,47 @@ function HomePage() {
   };
 
   return (
-    <div>
-      <h1
-        className="text-center text-5xl text-white"
+    <div className="height-screen bg-black">
+      <div
+        className="text-center text-5xl text-white 
+        "
+        // bg-gradient-to-b from-sky-950 to-white
+        style={{ height: "25vh" }}
         onMouseEnter={showWinter}
         onMouseLeave={noShow}
       >
         Winter
-      </h1>
-      <h1
-        className="text-center text-5xl text-white"
+      </div>
+      <div
+        className="height-1/4 text-center text-5xl text-white 
+        "
+        // bg-gradient-to-b from-sky-400 via-rose-200 to-green-300
+        style={{ height: "25vh" }}
         onMouseEnter={showSpring}
         onMouseLeave={noShow}
       >
         Spring
-      </h1>
-      <h1
-        className="text-center text-5xl text-white"
+      </div>
+      <div
+        className="height-1/4 text-center text-5xl text-white 
+        "
+        // bg-gradient-to-b from-amber-300 via-sky-400 to-yellow-700
+        style={{ height: "25vh" }}
         onMouseEnter={showSummer}
         onMouseLeave={noShow}
       >
         Summer
-      </h1>
-      <h1
-        className="text-center text-5xl text-white"
+      </div>
+      <div
+        className="height-1/4 text-center text-5xl text-white 
+        "
+        // bg-gradient-to-b from-sky-600 to-orange-800
+        style={{ height: "25vh" }}
         onMouseEnter={showAutumn}
         onMouseLeave={noShow}
       >
         Fall
-      </h1>
+      </div>
       {(showWinterParticles && <ParticlesWinter />) ||
         (showSpringParticles && <ParticlesSpring />) ||
         (showSummerParticles && <ParticlesSummer />) ||

@@ -5,6 +5,11 @@ import { useCallback, useMemo } from "react";
 function ParticlesSpring() {
   const options = useMemo(() => {
     return {
+      background: {
+        color: {
+          value: "#fecdd3",
+        },
+      },
       particles: {
         move: {
           direction: "bottom",
