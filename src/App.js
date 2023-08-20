@@ -1,15 +1,12 @@
-import ParticlesWinter from "./components/ParticlesWinter";
-import ParticlesSpring from "./components/ParticlesSpring";
-import ParticlesSummer from "./components/ParticlesSummer";
-import ParticlesAutumn from "./components/ParticlesAutumn";
+import HomePage from "./pages/HomePage";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div>
-      <ParticlesWinter />
-      {/* <ParticlesSpring /> */}
-      {/* <ParticlesSummer /> */}
-      {/* <ParticlesAutumn /> */}
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+      </Routes>
     </div>
   );
 }
