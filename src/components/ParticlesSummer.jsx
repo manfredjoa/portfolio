@@ -2,7 +2,7 @@ import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
 import { useCallback, useMemo } from "react";
 
-function ParticlesAutumn() {
+function ParticlesSummer() {
   const options = useMemo(() => {
     return {
       particles: {
@@ -42,7 +42,7 @@ function ParticlesAutumn() {
           options: {
             image: [
               {
-                src: "https://png2.cleanpng.com/sh/8fe99edf4188be2f095f4f8e31e3ef8f/L0KzQYi4UcI5N2k9UJGAYUHnRoTrgcFmamdmS5CEM0W3QYmBWcE2OWI9T6cANEa0QoaBTwBvbz==/5a1d63da1eb6a3.9354188915118755461258.png",
+                src: "https://png2.cleanpng.com/sh/81237ad470be08fdd84567a445a82b7e/L0KzQYm3UsAzN51rfZH0aYP2gLBuTfp2cZRqRelqdHX1fbbzjB4udaZmkZ99aHHsPcjolPVzdZZxh9C2NXG6RYSAVvRkP2I3Tao3OUm7QYm7V8IyPWI8TqU6M0S0SIK8VL5xdpg=/kisspng-juice-watermelon-muay-thai-watermelon-5a75376dc71258.9981847215176313418154.png",
                 particles: {
                   size: {
                     value: { min: 8, max: 12 },
@@ -50,7 +50,7 @@ function ParticlesAutumn() {
                 },
               },
               {
-                src: "https://png2.cleanpng.com/sh/e44b0c85e8b794d5fc8c8daa16917b9d/L0KzQYi4UcI5N5UAfJGAYUHnRoTtgcRnaWhmTZC5MUazSIm9WcE2OWI9T6cAN0i2Qoe6TwBvbz==/5a1d63fa4fa7a5.0160886915118755783263.png",
+                src: "https://png2.cleanpng.com/sh/d10038bc3ab92b422c5aa232c4a9fbbd/L0KzQYi4UcI4N5U2epGAYUHmQoaAUcA2Pmg4UZCDNka0SIm4UsE2OWI8UaY5M0OzQoO4TwBvbz==/5a1c2571056739.8661881215117940330221.png",
                 particles: {
                   size: {
                     value: { min: 8, max: 12 },
@@ -58,7 +58,7 @@ function ParticlesAutumn() {
                 },
               },
               {
-                src: "https://png2.cleanpng.com/sh/3caa101636288e194b7af55ef17afce5/L0KzQYi4UcI5N2k5fZGAYUHmdrWCWcIybpQ4TZCCN0m3SIG7WME2OWI9TKs8Nkm0Q4q5TwBvbz==/5a1cfd9921fc35.7794804815118493691392.png",
+                src: "https://png2.cleanpng.com/sh/4e24db439ed90acb02f5acfad2bbca3e/L0KzQYm3U8AyN5lBj5H0aYP2gLBuTfNieqV0h9C2c4Xwfbb5TgJwgZJxjOs2ZoLodX7wjPx2e6V3eeZyb36wd8Pshf4ue5pyiN5uLXPyc7F1lgQufKNqfeU2NXG8SIjohME6bmlnSaM3NUK1SIWCV8MyPWIAUaY7M0W2Roa6Vb5xdpg=/kisspng-cartoon-summer-royalty-free-illustration-green-simple-coconut-trees-5a987ad19f8b11.5228497315199423536535.png",
                 particles: {
                   size: {
                     value: { min: 8, max: 12 },
@@ -66,7 +66,7 @@ function ParticlesAutumn() {
                 },
               },
               {
-                src: "https://png2.cleanpng.com/sh/cc615212ca6d799488deeba1f29e44bd/L0KzQYm3UsA1N6psiZH0aYP2gLBuTfF2fKZyhp91ZXHpPbT2jP9zNZdmhN42YYX3hb71Tfxmaadqi599cnHxg8HokvVvfF51htk2NXG6R7S6VMU0apM6UKY3NES3SIW5V8IyPWI8T6sDMkG2QoW7Vr5xdpg=/kisspng-autumn-leaf-color-fall-autumn-leaves-transparent-png-5a77c3453bb584.4448427215177982132446.png",
+                src: "https://png2.cleanpng.com/sh/d9bb5fddf1a218e2047f48c7610df9f8/L0KzQYi4UcI4N2E5SZGAYUHmRbO5hMEyPmRqSZC8MEm0RomCUcE2OWI9SKkCOEmzR4K5TwBvbz==/5a1c5b2d1163e1.3091689115118077890712.png",
                 particles: {
                   size: {
                     value: { min: 8, max: 12 },
@@ -74,7 +74,7 @@ function ParticlesAutumn() {
                 },
               },
               {
-                src: "https://png2.cleanpng.com/sh/52bc2890e01e7de9a8f791704b896691/L0KzQYm3U8MyN5N2fZH0aYP2gLBuTfF2fKZyhp91ZXHpPbT2jP9zNapqhN54dz3mfLr3TfFzfF5yeeJ1ZT3vdbLtTcVia2E1SNcBNEezQbaATsE5OGk6UKgAMUW1Qoa6UsU5OmMASKs3cH7q/kisspng-autumn-leaf-color-yellow-clip-art-maple-leaf-5ac000e64701e7.1808586515225325822909.png",
+                src: "https://png2.cleanpng.com/sh/c146da818651656154714271b6103e4b/L0KzQYm3UsAzN5pmfZH0aYP2gLBuTgVuaqNqhN5qLXLocbTvTgNpaZVqReJqcnH2f720VfE4PGo1e6QEY3O8QIG1Wck0O2k1SKk6NUG6RYmBVsc1PmU3SpD5bne=/kisspng-umbrella-beach-shade-parasol-5a7490c29cc900.9933800715175886746422.png",
                 particles: {
                   size: {
                     value: { min: 8, max: 12 },
@@ -95,4 +95,4 @@ function ParticlesAutumn() {
   return <Particles init={particlesInit} options={options} />;
 }
 
-export default ParticlesAutumn;
+export default ParticlesSummer;
