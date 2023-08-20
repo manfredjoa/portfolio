@@ -1,9 +1,11 @@
-import ParticlesBackground from "./components/ParticlesBackground";
+import ParticlesWinter from "./components/ParticlesWinter";
+import ParticlesAutumn from "./components/ParticlesAutumn";
 
 function App() {
   return (
     <div>
-      <ParticlesBackground />
+      <ParticlesWinter />
+      {/* <ParticlesAutumn /> */}
     </div>
   );
 }

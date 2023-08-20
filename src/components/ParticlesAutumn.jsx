@@ -2,13 +2,10 @@ import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
 import { useCallback, useMemo } from "react";
 
-function ParticlesBackground() {
+function ParticlesAutumn() {
   const options = useMemo(() => {
     return {
       particles: {
-        color: {
-          value: ["#FFFFFF"],
-        },
         move: {
           direction: "bottom",
           enable: true,
@@ -28,26 +25,16 @@ function ParticlesBackground() {
             area: 800,
           },
         },
-        opacity: {
-          value: 1,
-          animation: {
-            enable: false,
-            startValue: "max",
-            destroy: "min",
-            speed: 0.3,
-            sync: true,
-          },
-        },
         rotate: {
           value: {
             min: 0,
-            max: 360,
+            max: 30,
           },
           direction: "random",
           move: true,
           animation: {
             enable: true,
-            speed: 60,
+            speed: 10,
           },
         },
         tilt: {
@@ -56,7 +43,7 @@ function ParticlesBackground() {
           move: true,
           value: {
             min: 0,
-            max: 360,
+            max: 30,
           },
           animation: {
             enable: true,
@@ -64,13 +51,26 @@ function ParticlesBackground() {
           },
         },
         shape: {
-          type: "circle",
-          options: {},
-        },
-        size: {
-          value: {
-            min: 1,
-            max: 3,
+          type: ["image"],
+          options: {
+            image: [
+              {
+                src: "https://png2.cleanpng.com/sh/8fe99edf4188be2f095f4f8e31e3ef8f/L0KzQYi4UcI5N2k9UJGAYUHnRoTrgcFmamdmS5CEM0W3QYmBWcE2OWI9T6cANEa0QoaBTwBvbz==/5a1d63da1eb6a3.9354188915118755461258.png",
+                particles: {
+                  size: {
+                    value: { min: 8, max: 12 },
+                  },
+                },
+              },
+              {
+                src: "https://png2.cleanpng.com/sh/e44b0c85e8b794d5fc8c8daa16917b9d/L0KzQYi4UcI5N5UAfJGAYUHnRoTtgcRnaWhmTZC5MUazSIm9WcE2OWI9T6cAN0i2Qoe6TwBvbz==/5a1d63fa4fa7a5.0160886915118755783263.png",
+                particles: {
+                  size: {
+                    value: { min: 8, max: 12 },
+                  },
+                },
+              },
+            ],
           },
         },
         roll: {
@@ -108,4 +108,4 @@ function ParticlesBackground() {
   return <Particles init={particlesInit} options={options} />;
 }
 
-export default ParticlesBackground;
+export default ParticlesAutumn;
