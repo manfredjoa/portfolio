@@ -1,5 +1,11 @@
+import ParticlesBackground from "./components/ParticlesBackground";
+
 function App() {
-  return <></>;
+  return (
+    <div>
+      <ParticlesBackground />
+    </div>
+  );
 }
 
 export default App;
