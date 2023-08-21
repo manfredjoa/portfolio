@@ -28,9 +28,64 @@ function ParticlesWinter() {
             area: 800,
           },
         },
+        rotate: {
+          value: {
+            min: 0,
+            max: 360,
+          },
+          direction: "bottom",
+          move: true,
+          animation: {
+            enable: true,
+            speed: 5,
+          },
+        },
         shape: {
-          type: "circle",
-          options: {},
+          type: ["circle", "image"],
+          options: {
+            image: [
+              {
+                src: "https://www.freepnglogos.com/uploads/snowflake-png/snowflake-png-eden-ice-cider-vermont-ice-cider-32.png",
+                particles: {
+                  size: {
+                    value: { min: 4, max: 12 },
+                  },
+                },
+              },
+              {
+                src: "https://pngfre.com/wp-content/uploads/snowflake-png-from-pngfre-2-1-300x300.png",
+                particles: {
+                  size: {
+                    value: { min: 4, max: 12 },
+                  },
+                },
+              },
+              {
+                src: "https://pngfre.com/wp-content/uploads/snowflake-png-from-pngfre-32-1-287x300.png",
+                particles: {
+                  size: {
+                    value: { min: 4, max: 12 },
+                  },
+                },
+              },
+              {
+                src: "https://pngfre.com/wp-content/uploads/snowflake-png-from-pngfre-39-300x300.png",
+                particles: {
+                  size: {
+                    value: { min: 4, max: 12 },
+                  },
+                },
+              },
+              {
+                src: "https://pngfre.com/wp-content/uploads/snowflake-png-from-pngfre-33-300x300.png",
+                particles: {
+                  size: {
+                    value: { min: 4, max: 12 },
+                  },
+                },
+              },
+            ],
+          },
         },
         size: {
           value: {

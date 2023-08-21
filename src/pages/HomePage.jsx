@@ -1,11 +1,15 @@
 import Home from "../components/Home";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 function HomePage() {
   const [showWinterParticles, setShowWinterParticles] = useState(false);
   const [showSpringParticles, setShowSpringParticles] = useState(false);
   const [showSummerParticles, setShowSummerParticles] = useState(false);
   const [showAutumnParticles, setShowAutumnParticles] = useState(false);
+
+  useEffect(() => {
+    showWinter();
+  }, []);
 
   const showWinter = () => {
     noShow();
@@ -88,20 +92,16 @@ function HomePage() {
             }}
           ></div>
         ))}
+
       <Home
         showWinterParticles={showWinterParticles}
-        setShowWinterParticles={setShowWinterParticles}
         showSpringParticles={showSpringParticles}
-        setShowSpringParticles={setShowSpringParticles}
         showSummerParticles={showSummerParticles}
-        setShowSummerParticles={setShowSummerParticles}
         showAutumnParticles={showAutumnParticles}
-        setShowAutumnParticles={setShowAutumnParticles}
         showWinter={showWinter}
         showSpring={showSpring}
         showSummer={showSummer}
         showAutumn={showAutumn}
-        noShow={noShow}
       />
     </div>
   );
