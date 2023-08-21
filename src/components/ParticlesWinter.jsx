@@ -22,7 +22,7 @@ function ParticlesWinter() {
           },
         },
         number: {
-          value: 100,
+          value: 300,
           density: {
             enable: true,
             area: 800,
