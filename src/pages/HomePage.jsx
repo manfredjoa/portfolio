@@ -8,7 +8,7 @@ function HomePage() {
   const [showAutumnParticles, setShowAutumnParticles] = useState(false);
 
   useEffect(() => {
-    showWinter();
+    showAutumn();
   }, []);
 
   const showWinter = () => {
@@ -66,7 +66,7 @@ function HomePage() {
             style={{
               backgroundImage:
                 "url(https://res.cloudinary.com/doqgufzuq/image/upload/v1694110529/Portfolio/Transparent%20Backgrounds/Summer%20Texture.png)",
-              backgroundColor: "rgb(255, 255, 79)",
+              backgroundColor: "rgb(232, 160, 84)",
             }}
           ></div>
         )) ||
