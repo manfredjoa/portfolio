@@ -15,7 +15,7 @@ function ParticlesAutumn() {
           size: true,
           speed: {
             min: 0.3,
-            max: 1,
+            max: 2,
           },
         },
         number: {

@@ -17,8 +17,8 @@ function ParticlesWinter() {
           },
           size: true,
           speed: {
-            min: 0.1,
-            max: 1,
+            min: 0.3,
+            max: 2,
           },
         },
         number: {
