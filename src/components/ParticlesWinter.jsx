@@ -45,42 +45,42 @@ function ParticlesWinter() {
           options: {
             image: [
               {
-                src: "https://res.cloudinary.com/doqgufzuq/image/upload/v1693175175/Portfolio/Winter/snowflake-png-eden-ice-cider-vermont-ice-cider-32_dkhpgx.png",
+                src: "https://res.cloudinary.com/doqgufzuq/image/upload/v1693175175/Portfolio/Winter/1.png",
                 particles: {
                   size: {
-                    value: { min: 4, max: 12 },
+                    value: { min: 4, max: 18 },
                   },
                 },
               },
               {
-                src: "https://res.cloudinary.com/doqgufzuq/image/upload/v1693175152/Portfolio/Winter/snowflake-png-from-pngfre-2-1-300x300_konfvv.png",
+                src: "https://res.cloudinary.com/doqgufzuq/image/upload/v1693175152/Portfolio/Winter/2.png",
                 particles: {
                   size: {
-                    value: { min: 4, max: 12 },
+                    value: { min: 4, max: 18 },
                   },
                 },
               },
               {
-                src: "https://res.cloudinary.com/doqgufzuq/image/upload/v1693175126/Portfolio/Winter/snowflake-png-from-pngfre-32-1-287x300_mjrg3t.png",
+                src: "https://res.cloudinary.com/doqgufzuq/image/upload/v1693175126/Portfolio/Winter/3.png",
                 particles: {
                   size: {
-                    value: { min: 4, max: 12 },
+                    value: { min: 4, max: 18 },
                   },
                 },
               },
               {
-                src: "https://res.cloudinary.com/doqgufzuq/image/upload/v1693175100/Portfolio/Winter/snowflake-png-from-pngfre-39-300x300_t8cunu.png",
+                src: "https://res.cloudinary.com/doqgufzuq/image/upload/v1693175100/Portfolio/Winter/4.png",
                 particles: {
                   size: {
-                    value: { min: 4, max: 12 },
+                    value: { min: 4, max: 18 },
                   },
                 },
               },
               {
-                src: "https://res.cloudinary.com/doqgufzuq/image/upload/v1693175044/Portfolio/Winter/snowflake-png-from-pngfre-33-300x300_d7hbfm.png",
+                src: "https://res.cloudinary.com/doqgufzuq/image/upload/v1693175044/Portfolio/Winter/5.png",
                 particles: {
                   size: {
-                    value: { min: 4, max: 12 },
+                    value: { min: 4, max: 18 },
                   },
                 },
               },

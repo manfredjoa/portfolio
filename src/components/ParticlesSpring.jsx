@@ -42,42 +42,42 @@ function ParticlesSpring() {
           options: {
             image: [
               {
-                src: "https://res.cloudinary.com/doqgufzuq/image/upload/v1693176429/Portfolio/Spring/39-396062_blue-flowers-png-tumblr-blue-aesthetic-flower-png_r9ybbd.png",
+                src: "https://res.cloudinary.com/doqgufzuq/image/upload/v1693176429/Portfolio/Spring/1.png",
                 particles: {
                   size: {
-                    value: { min: 10, max: 16 },
+                    value: { min: 10, max: 18 },
                   },
                 },
               },
               {
-                src: "https://res.cloudinary.com/doqgufzuq/image/upload/v1693176482/Portfolio/Spring/purepng.com-blossom-flowerflower-pink-blossom-flower-961524680272u0zbu_cat5sk.png",
+                src: "https://res.cloudinary.com/doqgufzuq/image/upload/v1693176482/Portfolio/Spring/2.png",
                 particles: {
                   size: {
-                    value: { min: 10, max: 16 },
+                    value: { min: 10, max: 18 },
                   },
                 },
               },
               {
-                src: "https://res.cloudinary.com/doqgufzuq/image/upload/v1693176808/Portfolio/Spring/get-cherry-blossom-png-pictures-20_q0noqr.png",
+                src: "https://res.cloudinary.com/doqgufzuq/image/upload/v1693176808/Portfolio/Spring/3.png",
                 particles: {
                   size: {
-                    value: { min: 10, max: 16 },
+                    value: { min: 10, max: 18 },
                   },
                 },
               },
               {
-                src: "https://res.cloudinary.com/doqgufzuq/image/upload/v1693177065/Portfolio/Spring/Flower-PNG-File_we9oyv.png",
+                src: "https://res.cloudinary.com/doqgufzuq/image/upload/v1693177065/Portfolio/Spring/4.png",
                 particles: {
                   size: {
-                    value: { min: 10, max: 16 },
+                    value: { min: 10, max: 18 },
                   },
                 },
               },
               {
-                src: "https://res.cloudinary.com/doqgufzuq/image/upload/v1693177492/Portfolio/Spring/Sunflower_PNG_Image_xp7t1g.png",
+                src: "https://res.cloudinary.com/doqgufzuq/image/upload/v1693177492/Portfolio/Spring/5.png",
                 particles: {
                   size: {
-                    value: { min: 10, max: 16 },
+                    value: { min: 10, max: 18 },
                   },
                 },
               },

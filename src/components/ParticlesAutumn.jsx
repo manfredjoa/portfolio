@@ -42,42 +42,42 @@ function ParticlesAutumn() {
           options: {
             image: [
               {
-                src: "https://res.cloudinary.com/doqgufzuq/image/upload/v1693175699/Portfolio/Autumn/fall-leaves-png-transparent-13_hs7g9e.png",
+                src: "https://res.cloudinary.com/doqgufzuq/image/upload/v1693175699/Portfolio/Autumn/1.png",
                 particles: {
                   size: {
-                    value: { min: 8, max: 14 },
+                    value: { min: 10, max: 18 },
                   },
                 },
               },
               {
-                src: "https://res.cloudinary.com/doqgufzuq/image/upload/v1693175734/Portfolio/Autumn/fall-leaves-png-transparent-14_dzrgxt.png",
+                src: "https://res.cloudinary.com/doqgufzuq/image/upload/v1693175734/Portfolio/Autumn/2.png",
                 particles: {
                   size: {
-                    value: { min: 8, max: 14 },
+                    value: { min: 10, max: 18 },
                   },
                 },
               },
               {
-                src: "https://res.cloudinary.com/doqgufzuq/image/upload/v1693175789/Portfolio/Autumn/fall-leaves-png-transparent-7_xjxwf1.png",
+                src: "https://res.cloudinary.com/doqgufzuq/image/upload/v1693175789/Portfolio/Autumn/3.png",
                 particles: {
                   size: {
-                    value: { min: 8, max: 14 },
+                    value: { min: 10, max: 18 },
                   },
                 },
               },
               {
-                src: "https://res.cloudinary.com/doqgufzuq/image/upload/v1693175834/Portfolio/Autumn/fall-leaves-png-transparent-6_s5vxwx.png",
+                src: "https://res.cloudinary.com/doqgufzuq/image/upload/v1693175834/Portfolio/Autumn/4.png",
                 particles: {
                   size: {
-                    value: { min: 8, max: 14 },
+                    value: { min: 10, max: 18 },
                   },
                 },
               },
               {
-                src: "https://res.cloudinary.com/doqgufzuq/image/upload/v1693175903/Portfolio/Autumn/kc85GM5Mi_iotrsx.png",
+                src: "https://res.cloudinary.com/doqgufzuq/image/upload/v1693175903/Portfolio/Autumn/5.png",
                 particles: {
                   size: {
-                    value: { min: 8, max: 14 },
+                    value: { min: 10, max: 18 },
                   },
                 },
               },

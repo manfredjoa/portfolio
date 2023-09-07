@@ -42,42 +42,42 @@ function ParticlesSummer() {
           options: {
             image: [
               {
-                src: "https://res.cloudinary.com/doqgufzuq/image/upload/v1693178568/Portfolio/Summer/png.monster-107_y1gycc.png",
+                src: "https://res.cloudinary.com/doqgufzuq/image/upload/v1693178568/Portfolio/Summer/1.png",
                 particles: {
                   size: {
-                    value: { min: 10, max: 14 },
+                    value: { min: 10, max: 18 },
                   },
                 },
               },
               {
-                src: "https://res.cloudinary.com/doqgufzuq/image/upload/v1693178815/Portfolio/Summer/1417859_wasqjx.png",
+                src: "https://res.cloudinary.com/doqgufzuq/image/upload/v1693178815/Portfolio/Summer/2.png",
                 particles: {
                   size: {
-                    value: { min: 10, max: 14 },
+                    value: { min: 10, max: 18 },
                   },
                 },
               },
               {
-                src: "https://res.cloudinary.com/doqgufzuq/image/upload/v1693193783/Portfolio/Summer/Red_Hibiscus_PNG_Clip_Art_tkoqhh.png",
+                src: "https://res.cloudinary.com/doqgufzuq/image/upload/v1693193783/Portfolio/Summer/3.png",
                 particles: {
                   size: {
-                    value: { min: 10, max: 14 },
+                    value: { min: 10, max: 18 },
                   },
                 },
               },
               {
-                src: "https://res.cloudinary.com/doqgufzuq/image/upload/v1694111574/Portfolio/Summer/138-1384634_hibiscus-flower-tropical-summer-cut-out-hawaiian-hibiscus_qshkva.png",
+                src: "https://res.cloudinary.com/doqgufzuq/image/upload/v1694111574/Portfolio/Summer/4.png",
                 particles: {
                   size: {
-                    value: { min: 10, max: 14 },
+                    value: { min: 10, max: 18 },
                   },
                 },
               },
               {
-                src: "https://res.cloudinary.com/doqgufzuq/image/upload/v1694111599/Portfolio/Summer/29-292499_hd-most-beautiful-flower-tri-coloured-hibiscus_ry0ppw.png",
+                src: "https://res.cloudinary.com/doqgufzuq/image/upload/v1694111599/Portfolio/Summer/5.png",
                 particles: {
                   size: {
-                    value: { min: 10, max: 14 },
+                    value: { min: 10, max: 18 },
                   },
                 },
               },
