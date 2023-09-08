@@ -1,17 +1,8 @@
-import { useState, useEffect, createElement } from "react";
+import { createElement } from "react";
 import { Dialog, DialogHeader, DialogBody } from "@material-tailwind/react";
 import { EnvelopeIcon } from "@heroicons/react/24/outline";
 
-export function Modal() {
-  const [open, setOpen] = useState(false);
-
-  const handleOpen = () => setOpen(!open);
-
-  useEffect(() => {
-    // handleOpen();
-    setOpen(true);
-  }, []);
-
+export function Modal({ open, handleOpen }) {
   return (
     <div>
       <Dialog

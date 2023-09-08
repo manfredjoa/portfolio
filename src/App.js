@@ -1,5 +1,4 @@
-import HomePage from "./pages/HomePage";
-import { Modal } from "./components/Modal";
+import HomePage from "./pages/HomePage.jsx";
 import { Routes, Route } from "react-router-dom";
 
 function App() {

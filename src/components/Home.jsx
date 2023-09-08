@@ -1,7 +1,9 @@
+import { useState } from "react";
 import ParticlesWinter from "../components/ParticlesWinter";
 import ParticlesSpring from "../components/ParticlesSpring";
 import ParticlesSummer from "../components/ParticlesSummer";
 import ParticlesAutumn from "../components/ParticlesAutumn";
+import { Modal } from "./Modal";
 
 const Home = ({
   showWinterParticles,
@@ -14,6 +16,10 @@ const Home = ({
   showAutumn,
 }) => {
   const Resume = "/ManfredJoa.pdf";
+
+  const [open, setOpen] = useState(false);
+
+  const handleOpen = () => setOpen(!open);
 
   return (
     <div>
@@ -88,7 +94,9 @@ const Home = ({
           </div>
 
           <div className="flex justify-center w-screen mt-5">
-            <div
+            <a
+              href={Resume}
+              target="_blank"
               className="text-5xl text-gray-200 flex justify-center items-center z-10 mr-5 border-white border-2 cursor-pointer"
               style={{
                 height: "15vw",
@@ -101,17 +109,15 @@ const Home = ({
               }}
               onMouseEnter={showWinter}
             >
-              <a
-                href={Resume}
-                target="_blank"
+              <h1
                 style={{
                   WebkitTextStroke: "1px rgb(8, 47, 73)",
                   opacity: showWinterParticles ? 1 : 0,
                 }}
               >
                 Resume
-              </a>
-            </div>
+              </h1>
+            </a>
             <div
               className="text-5xl text-gray-200 flex justify-center items-center z-10 ml-5 border-white border-2 cursor-pointer"
               style={{
@@ -124,6 +130,7 @@ const Home = ({
                 opacity: showSummerParticles ? 1 : 0.8,
               }}
               onMouseEnter={showSummer}
+              onClick={handleOpen}
             >
               <h1
                 style={{
@@ -142,6 +149,7 @@ const Home = ({
             (showAutumnParticles && <ParticlesAutumn />)}
         </div>
       </div>
+      <Modal open={open} handleOpen={handleOpen} />
     </div>
   );
 };
