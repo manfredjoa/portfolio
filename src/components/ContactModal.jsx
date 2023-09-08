@@ -2,7 +2,7 @@ import { createElement } from "react";
 import { Dialog } from "@material-tailwind/react";
 import { EnvelopeIcon } from "@heroicons/react/24/outline";
 
-export function Modal({ open, handleOpen }) {
+export function ContactModal({ open, handleOpen }) {
   return (
     <div>
       <Dialog
