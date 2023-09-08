@@ -12,12 +12,16 @@ export function ContactModal({ open, handleOpen }) {
         handler={handleOpen}
         size="sm"
       >
-        <div className="flex justify-center my-5">
+        <div
+          className="flex justify-center py-5"
+          style={{ background: "rgb(232, 160, 84)" }}
+        >
           <h1
             className="text-5xl text-white"
             style={{
               fontFamily: "'Sudbury Book', sans-serif",
-              WebkitTextStroke: "1px black",
+              color: "rgb(232, 160, 84)",
+              WebkitTextStroke: "1px white",
               textShadow: "2px 2px 3px black",
             }}
           >
@@ -25,7 +29,7 @@ export function ContactModal({ open, handleOpen }) {
           </h1>
         </div>
 
-        <div className="flex justify-evenly items-center mb-5">
+        <div className="flex justify-evenly items-center my-5">
           {createElement(EnvelopeIcon, {
             className: "h-20 w-20 text-black cursor-pointer hover:opacity-50",
             strokeWidth: 1.5,
