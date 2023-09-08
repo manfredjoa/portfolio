@@ -2,7 +2,7 @@ import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
 import { useCallback, useMemo } from "react";
 
-function ParticlesWinter() {
+const ParticlesWinter = () => {
   const options = useMemo(() => {
     return {
       particles: {
@@ -126,6 +126,6 @@ function ParticlesWinter() {
   }, []);
 
   return <Particles init={particlesInit} options={options} />;
-}
+};
 
 export default ParticlesWinter;

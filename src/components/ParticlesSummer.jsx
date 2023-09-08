@@ -2,7 +2,7 @@ import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
 import { useCallback, useMemo } from "react";
 
-function ParticlesSummer() {
+const ParticlesSummer = () => {
   const options = useMemo(() => {
     return {
       particles: {
@@ -93,6 +93,6 @@ function ParticlesSummer() {
   }, []);
 
   return <Particles init={particlesInit} options={options} />;
-}
+};
 
 export default ParticlesSummer;

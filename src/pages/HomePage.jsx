@@ -1,7 +1,7 @@
 import Home from "../components/Home";
 import { useState, useEffect } from "react";
 
-function HomePage() {
+const HomePage = () => {
   const [showWinterParticles, setShowWinterParticles] = useState(false);
   const [showSpringParticles, setShowSpringParticles] = useState(false);
   const [showSummerParticles, setShowSummerParticles] = useState(false);
@@ -93,6 +93,6 @@ function HomePage() {
       />
     </div>
   );
-}
+};
 
 export default HomePage;

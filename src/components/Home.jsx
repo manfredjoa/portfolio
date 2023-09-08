@@ -3,7 +3,7 @@ import ParticlesSpring from "../components/ParticlesSpring";
 import ParticlesSummer from "../components/ParticlesSummer";
 import ParticlesAutumn from "../components/ParticlesAutumn";
 
-function Home({
+const Home = ({
   showWinterParticles,
   showSpringParticles,
   showSummerParticles,
@@ -12,7 +12,7 @@ function Home({
   showSpring,
   showSummer,
   showAutumn,
-}) {
+}) => {
   const Resume = "/ManfredJoa.pdf";
 
   return (
@@ -144,6 +144,6 @@ function Home({
       </div>
     </div>
   );
-}
+};
 
 export default Home;
