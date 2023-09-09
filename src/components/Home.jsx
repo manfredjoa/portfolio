@@ -5,6 +5,7 @@ import ParticlesSummer from "../components/ParticlesSummer";
 import ParticlesAutumn from "../components/ParticlesAutumn";
 import { ContactModal } from "./ContactModal";
 import { ProjectsModal } from "./ProjectsModal";
+import { AboutModal } from "./AboutModal";
 
 const Home = ({
   showWinterParticles,
@@ -18,13 +19,17 @@ const Home = ({
 }) => {
   const Resume = "/ManfredJoa.pdf";
 
+  const [openAbout, setOpenAbout] = useState(false);
   const [openProjects, setOpenProjects] = useState(false);
   const [openContact, setOpenContact] = useState(false);
 
   const handleOpen = (e) => {
-    if (openProjects || openContact) {
+    if (openAbout || openProjects || openContact) {
+      setOpenAbout(false);
       setOpenProjects(false);
       setOpenContact(false);
+    } else if (e.target.className.includes("about")) {
+      setOpenAbout(!openAbout);
     } else if (e.target.className.includes("projects")) {
       setOpenProjects(!openProjects);
     } else if (e.target.className.includes("contact"))
@@ -58,7 +63,7 @@ const Home = ({
         <div className="flex flex-col h-3/4 w-2/4 items-center justify-center m-auto">
           <div className="flex justify-center w-screen mb-5">
             <div
-              className="text-5xl text-gray-200 flex justify-center items-center mr-5 border-white border-x border-y cursor-pointer"
+              className="about text-5xl text-gray-200 flex justify-center items-center mr-5 border-white border-x border-y cursor-pointer"
               style={{
                 height: "15vw",
                 width: "15vw",
@@ -71,8 +76,10 @@ const Home = ({
                 boxShadow: "5px 5px 10px black",
               }}
               onMouseEnter={showAutumn}
+              onClick={handleOpen}
             >
               <h1
+                className="about"
                 style={{
                   WebkitTextStroke: "1px rgb(79, 68, 65)",
                   textShadow: "3px 3px 5px black",
@@ -176,6 +183,7 @@ const Home = ({
             (showAutumnParticles && <ParticlesAutumn />)}
         </div>
       </div>
+      <AboutModal open={openAbout} handleOpen={handleOpen} />
       <ProjectsModal open={openProjects} handleOpen={handleOpen} />
       <ContactModal open={openContact} handleOpen={handleOpen} />
     </div>

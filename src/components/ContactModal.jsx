@@ -7,7 +7,7 @@ export function ContactModal({ open, handleOpen }) {
     <div>
       <Dialog
         className="outline-none rounded-none"
-        style={{ boxShadow: "5px 5px 10px black" }}
+        style={{ boxShadow: "5px 5px 10px rgb(232, 160, 84)" }}
         open={open}
         handler={handleOpen}
         size="sm"
@@ -17,7 +17,7 @@ export function ContactModal({ open, handleOpen }) {
           style={{ background: "rgb(232, 160, 84)" }}
         >
           <h1
-            className="text-5xl text-white"
+            className="text-5xl"
             style={{
               fontFamily: "'Sudbury Book', sans-serif",
               color: "rgb(232, 160, 84)",

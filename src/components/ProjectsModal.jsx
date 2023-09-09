@@ -5,7 +5,7 @@ export function ProjectsModal({ open, handleOpen }) {
     <div>
       <Dialog
         className="outline-none rounded-none"
-        style={{ boxShadow: "5px 5px 10px black" }}
+        style={{ boxShadow: "5px 5px 10px rgb(209, 128, 167)" }}
         open={open}
         handler={handleOpen}
         size="xl"
@@ -15,7 +15,7 @@ export function ProjectsModal({ open, handleOpen }) {
           style={{ background: "rgb(209, 128, 167)" }}
         >
           <h1
-            className="text-5xl text-white"
+            className="text-5xl"
             style={{
               fontFamily: "'Sudbury Book', sans-serif",
               color: "rgb(209, 128, 167)",
@@ -185,7 +185,7 @@ export function ProjectsModal({ open, handleOpen }) {
 
             <div className="flex flex-col w-3/4 mr-4">
               <div
-                className="flex justify-between text-sm"
+                className="flex text-sm justify-between"
                 style={{ color: "rgb(209, 128, 167)" }}
               >
                 <a
@@ -202,6 +202,7 @@ export function ProjectsModal({ open, handleOpen }) {
                 >
                   GitHub Client Repository
                 </a>
+                <a className="invisible">GitHub Server Repository</a>
               </div>
               <p className="flex grow items-center text-sm mt-2">
                 Created during week 4 of 12 of the General Assembly Software
