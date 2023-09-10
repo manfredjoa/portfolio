@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import ParticlesWinter from "../components/ParticlesWinter";
 import ParticlesSpring from "../components/ParticlesSpring";
 import ParticlesSummer from "../components/ParticlesSummer";
@@ -19,9 +19,25 @@ const Home = ({
 }) => {
   const Resume = "/ManfredJoa.pdf";
 
+  const [mobileView, setMobileView] = useState(false);
+
   const [openAbout, setOpenAbout] = useState(false);
   const [openProjects, setOpenProjects] = useState(false);
   const [openContact, setOpenContact] = useState(false);
+
+  useEffect(() => {
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  const handleResize = () => {
+    if (window.innerWidth <= 768) {
+      setMobileView(true);
+    } else {
+      setMobileView(false);
+    }
+  };
 
   const handleOpen = (e) => {
     if (openAbout || openProjects || openContact) {
@@ -65,8 +81,8 @@ const Home = ({
             <div
               className="about text-4xl text-gray-200 flex justify-center items-center mr-5 border-white border-x border-y cursor-pointer"
               style={{
-                height: "15vw",
-                width: "15vw",
+                height: mobileView ? "30vw" : "15vw",
+                width: mobileView ? "30vw" : "15vw",
                 backgroundImage:
                   "url(https://res.cloudinary.com/doqgufzuq/image/upload/v1694114483/Portfolio/Photos/Autumn.jpg",
                 backgroundSize: "cover",
@@ -93,8 +109,8 @@ const Home = ({
             <div
               className="projects text-4xl text-gray-200 flex justify-center items-center ml-5 border-white border-x border-y cursor-pointer"
               style={{
-                height: "15vw",
-                width: "15vw",
+                height: mobileView ? "30vw" : "15vw",
+                width: mobileView ? "30vw" : "15vw",
                 background:
                   "url(https://res.cloudinary.com/doqgufzuq/image/upload/v1694114483/Portfolio/Photos/Spring.jpg)",
                 backgroundSize: "cover",
@@ -125,8 +141,8 @@ const Home = ({
               target="_blank"
               className="text-4xl text-gray-200 flex justify-center items-center mr-5 border-white border-x border-y cursor-pointer"
               style={{
-                height: "15vw",
-                width: "15vw",
+                height: mobileView ? "30vw" : "15vw",
+                width: mobileView ? "30vw" : "15vw",
                 background:
                   "url(https://res.cloudinary.com/doqgufzuq/image/upload/v1694114483/Portfolio/Photos/Winter.jpg)",
                 backgroundSize: "cover",
@@ -151,8 +167,8 @@ const Home = ({
             <div
               className="contact text-4xl text-gray-200 flex justify-center items-center ml-5 border-white border-x border-y cursor-pointer"
               style={{
-                height: "15vw",
-                width: "15vw",
+                height: mobileView ? "30vw" : "15vw",
+                width: mobileView ? "30vw" : "15vw",
                 background:
                   "url(https://res.cloudinary.com/doqgufzuq/image/upload/v1694114483/Portfolio/Photos/Summer.jpg)",
                 backgroundSize: "cover",
