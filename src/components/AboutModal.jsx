@@ -39,7 +39,7 @@ export function AboutModal({ open, handleOpen }) {
             </div>
             <div className="w-2/3 mr-5">
               <p
-                className="h-full flex items-center text-black"
+                className="h-full flex items-center text-black mobile:text-sm"
                 style={{ fontFamily: "'Sudbury Book', sans-serif" }}
               >
                 Hi there! I'm Manfred, a Survivor superfan, Chess enthusiast,

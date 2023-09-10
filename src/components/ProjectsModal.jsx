@@ -14,11 +14,20 @@ export function ProjectsModal({ open, handleOpen }) {
         size="xl"
       >
         <div
-          className="flex justify-center py-5"
-          style={{ background: "rgb(209, 128, 167)" }}
+          className="flex items-center py-5"
+          style={{
+            background: "rgb(209, 128, 167)",
+            fontFamily: "'Sudbury Book', sans-serif",
+          }}
         >
           <h1
-            className="text-5xl"
+            className="md:hidden absolute cursor-pointer pl-5 text-white"
+            onClick={handleOpen}
+          >
+            Back
+          </h1>
+          <h1
+            className="text-5xl mx-auto"
             style={{
               fontFamily: "'Sudbury Book', sans-serif",
               color: "rgb(209, 128, 167)",
