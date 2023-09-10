@@ -43,7 +43,7 @@ const Home = ({
         style={{ height: "12.5vh" }}
       >
         <h1
-          className="text-center text-6xl"
+          className="text-center text-6xl mt-5"
           style={{
             fontFamily: "'Sudbury Book', sans-serif",
             WebkitTextStroke: "1px white",
@@ -63,7 +63,7 @@ const Home = ({
         <div className="flex flex-col h-3/4 w-2/4 items-center justify-center m-auto">
           <div className="flex justify-center w-screen mb-5">
             <div
-              className="about text-5xl text-gray-200 flex justify-center items-center mr-5 border-white border-x border-y cursor-pointer"
+              className="about text-4xl text-gray-200 flex justify-center items-center mr-5 border-white border-x border-y cursor-pointer"
               style={{
                 height: "15vw",
                 width: "15vw",
@@ -91,7 +91,7 @@ const Home = ({
             </div>
 
             <div
-              className="projects text-5xl text-gray-200 flex justify-center items-center ml-5 border-white border-x border-y cursor-pointer"
+              className="projects text-4xl text-gray-200 flex justify-center items-center ml-5 border-white border-x border-y cursor-pointer"
               style={{
                 height: "15vw",
                 width: "15vw",
@@ -123,7 +123,7 @@ const Home = ({
             <a
               href={Resume}
               target="_blank"
-              className="text-5xl text-gray-200 flex justify-center items-center mr-5 border-white border-x border-y cursor-pointer"
+              className="text-4xl text-gray-200 flex justify-center items-center mr-5 border-white border-x border-y cursor-pointer"
               style={{
                 height: "15vw",
                 width: "15vw",
@@ -149,7 +149,7 @@ const Home = ({
             </a>
 
             <div
-              className="contact text-5xl text-gray-200 flex justify-center items-center ml-5 border-white border-x border-y cursor-pointer"
+              className="contact text-4xl text-gray-200 flex justify-center items-center ml-5 border-white border-x border-y cursor-pointer"
               style={{
                 height: "15vw",
                 width: "15vw",
