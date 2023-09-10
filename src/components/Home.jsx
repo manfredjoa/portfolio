@@ -56,23 +56,39 @@ const Home = ({
     <div>
       <div
         className="flex items-center justify-center z-10 w-screen absolute"
-        style={{ height: "12.5vh" }}
+        style={{ height: "12.5vh", fontFamily: "'Sudbury Book', sans-serif" }}
       >
-        <h1
-          className="text-center text-6xl mt-5"
-          style={{
-            fontFamily: "'Sudbury Book', sans-serif",
-            WebkitTextStroke: "1px white",
-            textShadow: "3px 3px 5px black",
-            color:
-              (showAutumnParticles && "rgb(79, 68, 65)") ||
-              (showSpringParticles && "rgb(209, 128, 167)") ||
-              (showWinterParticles && "rgb(8, 47, 73)") ||
-              (showSummerParticles && "rgb(232, 160, 84)"),
-          }}
-        >
-          Manfred Joa
-        </h1>
+        <div className="flex flex-col text-center">
+          <h1
+            className="text-center text-5xl mt-5"
+            style={{
+              fontFamily: "'Sudbury Book', sans-serif",
+              WebkitTextStroke: "1px white",
+              textShadow: "3px 3px 5px black",
+              color:
+                (showAutumnParticles && "rgb(79, 68, 65)") ||
+                (showSpringParticles && "rgb(209, 128, 167)") ||
+                (showWinterParticles && "rgb(8, 47, 73)") ||
+                (showSummerParticles && "rgb(232, 160, 84)"),
+            }}
+          >
+            Manfred Joa
+          </h1>
+          <h1
+            className="text-2xl text-white"
+            style={{
+              WebkitTextStroke: "1px white",
+              textShadow: "3px 3px 5px black",
+              color:
+                (showAutumnParticles && "rgb(79, 68, 65)") ||
+                (showSpringParticles && "rgb(209, 128, 167)") ||
+                (showWinterParticles && "rgb(8, 47, 73)") ||
+                (showSummerParticles && "rgb(232, 160, 84)"),
+            }}
+          >
+            Full-Stack Software Engineer
+          </h1>
+        </div>
       </div>
 
       <div className="flex items-center h-screen w-screen">

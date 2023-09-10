@@ -4,8 +4,11 @@ export function ProjectsModal({ open, handleOpen }) {
   return (
     <div>
       <Dialog
-        className="outline-none rounded-none"
-        style={{ boxShadow: "5px 5px 10px rgb(209, 128, 167)" }}
+        className="outline-none rounded-none overflow-y-auto"
+        style={{
+          boxShadow: "5px 5px 10px rgb(209, 128, 167)",
+          maxHeight: "95vh",
+        }}
         open={open}
         handler={handleOpen}
         size="xl"
@@ -53,27 +56,27 @@ export function ProjectsModal({ open, handleOpen }) {
 
             <div className="flex flex-col w-3/4 mr-4">
               <div
-                className="flex justify-between text-sm"
+                className="flex justify-between text-sm mobile:text-xs"
                 style={{ color: "rgb(209, 128, 167)" }}
               >
                 <a
                   href="https://wineaboutit.netlify.app/"
                   target="_blank"
-                  className="cursor-pointer hover:opacity-50"
+                  className="text-center cursor-pointer hover:opacity-50"
                 >
                   Deployed App
                 </a>
                 <a
                   href="https://github.com/manfredjoa/wine-about-it-client"
                   target="_blank"
-                  className="cursor-pointer hover:opacity-50"
+                  className="text-center cursor-pointer hover:opacity-50"
                 >
                   GitHub Client Repository
                 </a>
                 <a
                   href="https://github.com/manfredjoa/wine-about-it-server"
                   target="_blank"
-                  className="cursor-pointer hover:opacity-50"
+                  className="text-center cursor-pointer hover:opacity-50"
                 >
                   GitHub Server Repository
                 </a>
@@ -125,21 +128,21 @@ export function ProjectsModal({ open, handleOpen }) {
                 <a
                   href="https://youandmeme.netlify.app/"
                   target="_blank"
-                  className="cursor-pointer hover:opacity-50"
+                  className="text-center cursor-pointer hover:opacity-50"
                 >
                   Deployed App
                 </a>
                 <a
                   href="https://github.com/manfredjoa/you-and-meme-client"
                   target="_blank"
-                  className="cursor-pointer hover:opacity-50"
+                  className="text-center cursor-pointer hover:opacity-50"
                 >
                   GitHub Client Repository
                 </a>
                 <a
                   href="https://github.com/manfredjoa/you-and-meme-server"
                   target="_blank"
-                  className="cursor-pointer hover:opacity-50"
+                  className="text-center cursor-pointer hover:opacity-50"
                 >
                   GitHub Server Repository
                 </a>
@@ -191,14 +194,14 @@ export function ProjectsModal({ open, handleOpen }) {
                 <a
                   href="https://manfredjoa.github.io/hangman/"
                   target="_blank"
-                  className="cursor-pointer hover:opacity-50"
+                  className="text-center cursor-pointer hover:opacity-50"
                 >
                   Deployed App
                 </a>
                 <a
                   href="https://github.com/manfredjoa/hangman"
                   target="_blank"
-                  className="cursor-pointer hover:opacity-50"
+                  className="text-center cursor-pointer hover:opacity-50"
                 >
                   GitHub Client Repository
                 </a>
