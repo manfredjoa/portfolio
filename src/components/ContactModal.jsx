@@ -1,4 +1,3 @@
-import { createElement } from "react";
 import { Dialog } from "@material-tailwind/react";
 
 export function ContactModal({ open, handleOpen }) {
