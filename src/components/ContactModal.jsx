@@ -1,6 +1,5 @@
 import { createElement } from "react";
 import { Dialog } from "@material-tailwind/react";
-import { EnvelopeIcon } from "@heroicons/react/24/outline";
 
 export function ContactModal({ open, handleOpen }) {
   return (
@@ -30,11 +29,12 @@ export function ContactModal({ open, handleOpen }) {
         </div>
 
         <div className="flex justify-evenly items-center my-5">
-          {createElement(EnvelopeIcon, {
-            className: "h-20 w-20 text-black cursor-pointer hover:opacity-50",
-            strokeWidth: 1.5,
-            onClick: () => window.open("mailto:joamanfred@gmail.com"),
-          })}
+          <img
+            src="https://res.cloudinary.com/doqgufzuq/image/upload/v1694390527/Portfolio/Icons/Gmail.png"
+            alt="Gmail Icon"
+            className="h-20 w-20 cursor-pointer hover:opacity-50"
+            onClick={() => window.open("mailto:joamanfred@gmail.com")}
+          ></img>
 
           <a
             href="https://www.linkedin.com/in/manfredjoa/"
