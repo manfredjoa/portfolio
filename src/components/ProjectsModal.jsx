@@ -131,7 +131,7 @@ export function ProjectsModal({ open, handleOpen }) {
 
             <div className="flex flex-col w-3/4 mr-4">
               <div
-                className="flex justify-between text-sm"
+                className="flex justify-between text-sm mobile:text-xs"
                 style={{ color: "rgb(209, 128, 167)" }}
               >
                 <a
@@ -197,7 +197,7 @@ export function ProjectsModal({ open, handleOpen }) {
 
             <div className="flex flex-col w-3/4 mr-4">
               <div
-                className="flex text-sm justify-between"
+                className="flex justify-between text-sm mobile:text-xs"
                 style={{ color: "rgb(209, 128, 167)" }}
               >
                 <a
