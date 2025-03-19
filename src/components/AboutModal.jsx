@@ -42,16 +42,17 @@ export function AboutModal({ open, handleOpen }) {
                 className="h-full flex items-center text-black mobile:text-sm"
                 style={{ fontFamily: "'Sudbury Book', sans-serif" }}
               >
-                Hi there! I'm Manfred, a Survivor superfan, Chess enthusiast,
-                and full-stack software engineer based in New York. If you
-                haven't noticed by now, I love color, design, and things flying
-                around the screen! As a recent graduate of the Software
-                Engineering Immersive at General Assembly, I'm excited for my
-                journey of growth into the tech industry and cannot wait to
-                bring my skills and passion for creativity and development into
-                this space. I'm currently looking for a full-time role as a
-                full-stack software engineer, so please feel free to reach out
-                by email or through LinkedIn!
+                Hi there! I'm Manfred, a lover of competition reality tv, Chess
+                enthusiast, full-stack software engineer, and AI Tester based in
+                New York. If you haven't noticed by now, I love color, design,
+                and things flying around the screen! As a graduate of the
+                Software Engineering Immersive at General Assembly, I'm excited
+                for my journey of growth within the tech and AI industries and
+                cannot wait to bring my skills and passion for creativity and
+                development into this space. I'm currently looking for my next
+                full-time role as a full-stack software engineer or AI
+                developer, so please feel free to reach out by email or through
+                LinkedIn!
               </p>
             </div>
           </div>
