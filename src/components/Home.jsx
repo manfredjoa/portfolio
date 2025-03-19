@@ -86,7 +86,7 @@ const Home = ({
                 (showSummerParticles && "rgb(232, 160, 84)"),
             }}
           >
-            Full-Stack Software Engineer
+            AI Tester | Full-Stack Software Engineer
           </h1>
         </div>
       </div>
